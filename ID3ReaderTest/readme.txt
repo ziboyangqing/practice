@@ -1,0 +1,1 @@
+auto get id3&lrc
