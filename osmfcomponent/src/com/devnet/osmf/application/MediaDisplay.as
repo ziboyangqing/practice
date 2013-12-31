@@ -13,14 +13,14 @@ package com.devnet.osmf.application
 	import com.devnet.osmf.events.ProgressEvent;
 	
 	import flash.display.Sprite;
-	import flash.events.ErrorEvent;
+	//import flash.events.ErrorEvent;
 	import flash.events.Event;
 	import flash.events.IOErrorEvent;
 	
 	import org.osmf.containers.MediaContainer;
-	import org.osmf.elements.F4MElement;
-	import org.osmf.elements.SerialElement;
-	import org.osmf.elements.VideoElement;
+	//import org.osmf.elements.F4MElement;
+	//import org.osmf.elements.SerialElement;
+	//import org.osmf.elements.VideoElement;
 	import org.osmf.events.LoadEvent;
 	import org.osmf.events.MediaElementEvent;
 	import org.osmf.events.MediaErrorEvent;
@@ -30,11 +30,11 @@ package com.devnet.osmf.application
 	import org.osmf.events.SeekEvent;
 	import org.osmf.events.TimeEvent;
 	import org.osmf.events.TimelineMetadataEvent;
-	import org.osmf.layout.HorizontalAlign;
+	//import org.osmf.layout.HorizontalAlign;
 	import org.osmf.layout.LayoutMetadata;
 	import org.osmf.layout.LayoutRenderer;
 	import org.osmf.layout.LayoutRendererBase;
-	import org.osmf.layout.ScaleMode;
+	//import org.osmf.layout.ScaleMode;
 	//import org.osmf.layout.VerticalAlign;
 	import org.osmf.media.DefaultMediaFactory;
 	import org.osmf.media.MediaElement;
