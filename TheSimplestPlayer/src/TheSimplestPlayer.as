@@ -3,7 +3,6 @@ package
 	import flash.display.Sprite;
 	
 	import org.osmf.containers.MediaContainer;
-	import org.osmf.elements.VideoElement;
 	import org.osmf.media.DefaultMediaFactory;
 	import org.osmf.media.MediaElement;
 	import org.osmf.media.MediaPlayer;
@@ -14,7 +13,7 @@ package
 	{
 		public function TheSimplestPlayer()
 		{
-			// Store the URL
+			// Store the URL ||"http://mediapm.edgesuite.net/osmf/content/test/manifest-files/dynamic_Streaming.f4m"
 			var videoPath:String = "rtmp://cp67126.edgefcs.net/ondemand/mediapm/strobe/content/test/SpaceAloneHD_sounas_640_500_short";
 			
 			// Create a resource
