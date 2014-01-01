@@ -1,0 +1,29 @@
+http://www.webshowme.com/04js/news.asp?id=10
+
+VI.as:
+
+ip.visible暂停状态按钮
+
+SD.as:
+
+trackComplete()切图，分割jd.png
+
+skin.xml:
+
+<media>mixer
+
+<progress>track_src :进度条背景、加载进度、播放进度背景
+
+		media:SMP.wm,
+                lrc:SMP.wr,
+                list:SMP.wl,
+                console:SMP.wc,
+                option:SMP.wo
+WC.as SButton.as
+
+TC<-CR<-LB<-BaseButton
+
+按钮闪烁：
+
+
+验证：SGraphics.c,MediaManager.c,SMPCore.cmp

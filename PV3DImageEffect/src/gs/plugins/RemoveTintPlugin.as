@@ -1,0 +1,13 @@
+﻿//Created by Action Script Viewer - http://www.buraks.com/asv
+package gs.plugins {
+
+    public class RemoveTintPlugin extends TintPlugin {
+
+        public static const VERSION:Number = 1.01;
+        public static const API:Number = 1;
+
+        public function RemoveTintPlugin(){
+            this.propName = "removeTint";
+        }
+    }
+}//package gs.plugins 

@@ -1,0 +1,42 @@
+﻿<skin name="google" version="2.0" author="xunjie" email="66988695" url="http://www.flashas.heroedu.cn/" readme="青青Flash" preview="" mask_color="" show_tips="0.5" context_menu="0">
+<media xywh="68, 2, 345, 66" src="media.png" lock="1" display="1" group="A" mouseEnabled="false">
+<video xywh="1, 1, 1B, 1B" show_icon="1" show_buttons="0"/>
+</media>
+  <console xywh="0, 0, 426, 70" src="bg.png" mask="" lock="1" display="1" group="A" snap="true" shadow="1,90,#000000,0.3,4,4,1,3">
+	<progress xywh="70, 2, 345, 66" thumb_src="" track_src="jd.png" tips="" /> 
+	<bt_play xywh="10, 11, 55, 54" src="play.png" tips="" />
+	<volume xywh="416, 68, 66, 8" thumb_src="vthumb.png" track_src="vtrack.png" rotation="-90" src="" tips="" /> 
+    <time xywh="2, 54, 78, 45" align="left" font="宋体" size="10" color="#4B4B4B" borderColor="" backgroundColor="" bold="" shadow="1,90,#4B4B4B,0.5,1,1,1,1"/>
+  </console>
+  <languages>
+    <msg id="state_undefined">未定义</msg>
+    <msg id="state_connecting">连接中</msg>
+    <msg id="state_buffering">缓冲</msg>
+    <msg id="state_playing">正在播放</msg>
+    <msg id="state_paused">已暂停</msg>
+    <msg id="state_stopped">已停止</msg>
+    <msg id="state_completed">播放完成</msg>
+    <msg id="state_reconnecting">重试连接</msg>
+    <msg id="menu_fullscreen">全屏切换</msg>
+    <msg id="menu_list">列表</msg>
+    <msg id="menu_lrc">歌词</msg>
+    <msg id="menu_video">视频</msg>
+    <msg id="menu_option">选项</msg>
+    <msg id="option_title_skins">设置皮肤</msg>
+    <msg id="option_title_about">关于程序</msg>
+    <msg id="option_skin_waiting">等待加载</msg>
+    <msg id="option_skin_loading">加载中</msg>
+    <msg id="option_skin_error">皮肤错误</msg>
+    <msg id="option_skin_version">版本</msg>
+    <msg id="option_skin_author">作者</msg>
+    <msg id="option_skin_email">邮箱</msg>
+    <msg id="option_skin_url">网址</msg>
+    <msg id="option_skin_readme">说明</msg>
+    <msg id="option_copy_url">复制分享地址</msg>
+    <msg id="option_copy_embed">复制插入代码</msg>
+    <msg id="option_copied">已复制</msg>
+    <msg id="view_listing">加载列表</msg>
+    <msg id="view_nothing">没有找到任何信息</msg>
+    <msg id="view_error">错误</msg>
+  </languages>
+</skin>

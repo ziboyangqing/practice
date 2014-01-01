@@ -1,0 +1,39 @@
+﻿<skin version="1.2" name="CMP3默认皮肤" url="http://bbs.cenfun.com/" author="CenFun" email="cenfun@gmail.com" mask_color="">
+  <option xywh="0C, 0C, 330, 270" src="win.png" mask="" lock="0" display="0" group="A" shadow="5,45,#000000,0.3,4,4,1,3">
+    <pane xywh="5, 25, 320, 240" align="left" font="宋体" size="12" color="#666666, #ffffff" />
+    <scrollbar thumb_src="scrollbar_thumb.png" button_src="scrollbar_button.png" track_src=""/>
+    <bt_close xywh="5R, 1, 38, 18" src="bt_close.png" />
+  </option>
+  <list xywh="165C, 63C, 266, 270" src="win.png" mask="" lock="0" display="1" group="B" shadow="5,45,#000000,0.3,4,4,1,3">
+    <tree xywh="5, 25, 256, 240" align="left" font="宋体" size="12" color="#666666, #ffffff" />
+    <scrollbar thumb_src="scrollbar_thumb.png" button_src="scrollbar_button.png" track_src=""/>
+    <bt_close xywh="5R, 1, 38, 18" src="bt_close.png" />
+  </list>
+  <lrc xywh="165C, -135C, 266, 126" src="win.png" mask="" lock="0" display="1" group="C" shadow="5,45,#000000,0.3,4,4,1,3">
+    <text xywh="5, 25, 256, 96" align="center" font="宋体" size="12" color="#666666, #ffffff" />
+    <bt_close xywh="5R, 1, 38, 18" src="bt_close.png" />
+  </lrc>
+  <media xywh="-133C, 63C, 330, 270" src="win.png" mask="" lock="0" display="1" group="D" shadow="5,45,#000000,0.3,4,4,1,3">
+    <video xywh="5, 25, 320, 240" />
+    <bt_close xywh="5R, 1, 38, 18" src="bt_close.png" />
+  </media>
+  <console xywh="-133C, -135C, 330, 126" src="console.png" mask="" lock="0" display="1" group="E" shadow="5,45,#000000,0.3,4,4,1,3">
+    <bt_play xywh="12, 11R, 13, 13" src="bt_play.png" />
+    <bt_stop xywh="32, 11R, 13, 13" src="bt_stop.png" />
+    <bt_prev xywh="52, 11R, 13, 13" src="bt_prev.png" />
+    <bt_next xywh="72, 11R, 13, 13" src="bt_next.png" />
+    <bt_random xywh="92, 11R, 13, 13" src="bt_random.png" />
+    <bt_repeat xywh="112, 11R, 13, 13" src="bt_repeat.png" />
+    <bt_mute xywh="95R, 11R, 13, 13" src="bt_mute.png" />
+    <volume xywh="11R, 15R, 76, 6" thumb_src="volume_thumb.png" track_src="volume_track.png" />
+    <progress xywh="0C, 45, 10B, 7" thumb_src="progress_thumb.png" track_src="progress_track.png" />
+    <bt_list xywh="90R, 17, 13, 13" src="bt_list.png" />
+    <bt_video xywh="70R, 17, 13, 13" src="bt_video.png" />
+    <bt_lrc xywh="50R, 17, 13, 13" src="bt_lrc.png" />
+    <bt_option xywh="30R, 17, 13, 13" src="bt_option.png" />
+    <bt_fullscreen xywh="10R, 17, 13, 13" src="bt_fullscreen.png"/>
+    <title xywh="10, 15, 200, 18" align="left" font="宋体" size="12" color="#666666" borderColor="" backgroundColor="" bold="1" />
+    <status xywh="10, 60, 200, 18" align="left" font="宋体" size="12" color="#666666" borderColor="" backgroundColor="" bold="" />
+    <time xywh="10R, 60, 100, 18" align="right" font="宋体" size="12" color="#666666" borderColor="" backgroundColor="" bold="" />
+  </console>
+</skin>
