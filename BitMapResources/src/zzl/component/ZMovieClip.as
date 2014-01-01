@@ -1,4 +1,4 @@
-package component.controls
+package zzl.component
 {
 	import flash.display.Bitmap;
 	import flash.display.BitmapData;

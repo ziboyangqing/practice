@@ -1,4 +1,4 @@
-package util
+package zzl.utils
 {
 	import flash.display.Bitmap;
 	import flash.display.BitmapData;

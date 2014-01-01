@@ -1,4 +1,4 @@
-package component.controls
+package zzl.component
 {
 	import flash.display.Sprite;
 	import flash.events.MouseEvent;
