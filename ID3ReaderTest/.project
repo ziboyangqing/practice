@@ -16,9 +16,9 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>[source path] myLibrary</name>
+			<name>[source path] myLib</name>
 			<type>2</type>
-			<locationURI>myLibrary</locationURI>
+			<locationURI>myLib</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

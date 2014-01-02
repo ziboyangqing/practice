@@ -28,14 +28,14 @@ package {
 		private var eq:Equalizer;
 		
         public function Main() {
-			url="http://yinyueshiting.baidu.com/data2/music/41868206/2330761388458861128.mp3?xcode=7f603113ac92fd475fab86c8f6a58dbabcf8ad810828d504";
+			//url="http://yinyueshiting.baidu.com/data2/music/41868206/2330761388458861128.mp3?xcode=7f603113ac92fd475fab86c8f6a58dbabcf8ad810828d504";
             reader = new ID3Reader(url);
             reader.addEventListener(ID3Event.ID3OK, onID3ok);
             reader.addEventListener(ID3Event.ID3ERROR, onID3error);
 			image=new Sprite();
             addChild(image);
 			Copy.addMenue(this,"官方陶宝",goTaobao);
-			trace(Copy.checkCopy());
+			trace(Copy.checkCopy(this));
 			player=new Mp3Player();
 			player.source=url;
 			player.addEventListener(PlayerEvent.PLAYPROGRESS,showLrc);
