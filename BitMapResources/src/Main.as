@@ -69,7 +69,7 @@ package
 		private function slideFun(value:Number):void
 		{
 			trace(value);
-			progress.showPlay(value);
+			progress.showLoad(value);
 		}
 		private function progFun(value:Number):void{
 			trace(value);
