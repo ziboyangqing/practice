@@ -8,20 +8,20 @@
 package com.devnet.osmf.application
 {
 	import flash.display.Loader;
-	//import flash.display.LoaderInfo;
+	import flash.display.LoaderInfo;
 	import flash.display.Sprite;
 	import flash.display.StageDisplayState;
-	//import flash.display.StageScaleMode;
+	import flash.display.StageScaleMode;
 	import flash.events.Event;
 	import flash.events.MouseEvent;
 	import flash.events.FullScreenEvent;
 	import flash.geom.Rectangle;
 	import flash.net.URLRequest;
-	//import flash.system.ApplicationDomain;
+	import flash.system.ApplicationDomain;
 	import flash.system.Capabilities;
-	//import flash.system.LoaderContext;
+	import flash.system.LoaderContext;
 	import flash.system.Security;
-	//import flash.system.System;
+	import flash.system.System;
 	
 	import com.devnet.osmf.controls.*;
 	import com.devnet.osmf.core.MediaControl;
@@ -60,7 +60,6 @@ package com.devnet.osmf.application
 	 * 
 	 * @langversion ActionScript 3.0
 	 * @playerversion Flash 10.0.0
-	 * 改造：将ui传递过来，对应期中元素，取得相应控制功能
 	 */
 	public class ControlBar extends MediaControl
 	{

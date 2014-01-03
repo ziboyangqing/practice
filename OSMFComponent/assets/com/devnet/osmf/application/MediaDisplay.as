@@ -7,46 +7,46 @@
  */
 package com.devnet.osmf.application
 {
-	import com.devnet.osmf.application.Configuration;
-	import com.devnet.osmf.events.CuePointEvent;
-	import com.devnet.osmf.events.MediaEvent;
-	import com.devnet.osmf.events.ProgressEvent;
-	
 	import flash.display.Sprite;
-	//import flash.events.ErrorEvent;
+	import flash.events.ErrorEvent;
 	import flash.events.Event;
 	import flash.events.IOErrorEvent;
 	
 	import org.osmf.containers.MediaContainer;
-	//import org.osmf.elements.F4MElement;
-	//import org.osmf.elements.SerialElement;
-	//import org.osmf.elements.VideoElement;
+	import org.osmf.elements.F4MElement;
+	import org.osmf.elements.SerialElement;
+	import org.osmf.elements.VideoElement;
 	import org.osmf.events.LoadEvent;
-	import org.osmf.events.MediaElementEvent;
 	import org.osmf.events.MediaErrorEvent;
+	import org.osmf.events.MediaElementEvent;
 	import org.osmf.events.MediaFactoryEvent;
 	import org.osmf.events.MediaPlayerCapabilityChangeEvent;
 	import org.osmf.events.MediaPlayerStateChangeEvent;
 	import org.osmf.events.SeekEvent;
 	import org.osmf.events.TimeEvent;
 	import org.osmf.events.TimelineMetadataEvent;
-	//import org.osmf.layout.HorizontalAlign;
+	import org.osmf.layout.HorizontalAlign;
 	import org.osmf.layout.LayoutMetadata;
 	import org.osmf.layout.LayoutRenderer;
 	import org.osmf.layout.LayoutRendererBase;
-	//import org.osmf.layout.ScaleMode;
-	//import org.osmf.layout.VerticalAlign;
+	import org.osmf.layout.ScaleMode;
+	import org.osmf.layout.VerticalAlign;
 	import org.osmf.media.DefaultMediaFactory;
 	import org.osmf.media.MediaElement;
 	import org.osmf.media.MediaFactory;
 	import org.osmf.media.MediaPlayer;
 	import org.osmf.media.MediaPlayerState;
-	//import org.osmf.media.MediaResourceBase;
+	import org.osmf.media.MediaResourceBase;
 	import org.osmf.media.URLResource;
 	import org.osmf.metadata.CuePoint;
 	import org.osmf.metadata.CuePointType;
-	//import org.osmf.metadata.TimelineMarker;
+	import org.osmf.metadata.TimelineMarker;
 	import org.osmf.metadata.TimelineMetadata;
+	
+	import com.devnet.osmf.application.Configuration;
+	import com.devnet.osmf.events.CuePointEvent;
+	import com.devnet.osmf.events.MediaEvent;
+	import com.devnet.osmf.events.ProgressEvent;
 	
 	//*********************************
 	// Event Metadata:
@@ -112,9 +112,6 @@ package com.devnet.osmf.application
 	 * 
 	 * @langversion ActionScript 3.0
 	 * @playerversion Flash 10.0.0
-	 * +++++++++++++++++++++++++++++++++++
-	 * To be Added:
-	 * sp:boundingBox
 	 */
 	public class MediaDisplay extends Sprite
 	{
@@ -191,7 +188,7 @@ package com.devnet.osmf.application
 		//*****************************
 		// Constructor:
 		
-		public function MediaDisplay(width:Number,height:Number):void
+		public function MediaDisplay():void
 		{
 			//------------------
 			// Measure layout:
@@ -204,9 +201,9 @@ package com.devnet.osmf.application
 			scaleY = 1;
 			
 			// Resize the bounding box
-			//boundingBox.alpha = 0;
-			//boundingBox.width = _prefWidth;
-			//boundingBox.height = _prefHeight;
+			boundingBox.alpha = 0;
+			boundingBox.width = _prefWidth;
+			boundingBox.height = _prefHeight;
 			
 			//------------------
 			// Create OSMF objects:
@@ -959,8 +956,8 @@ package com.devnet.osmf.application
 			
 			container.width = _prefWidth;
 			container.height = _prefHeight;
-			//boundingBox.width = _prefWidth;
-			//boundingBox.height = _prefHeight;
+			boundingBox.width = _prefWidth;
+			boundingBox.height = _prefHeight;
 		}
 		
 		// Don't resize the wrapper sprite!
