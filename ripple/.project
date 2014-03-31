@@ -18,7 +18,7 @@
 		<link>
 			<name>[source path] mylib</name>
 			<type>2</type>
-			<locationURI>mylib</locationURI>
+			<location>D:/Github/smallTolls/trunk</location>
 		</link>
 	</linkedResources>
 	<variableList>
